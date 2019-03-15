@@ -4,7 +4,7 @@ def square_array(array)
   arr_size= array.size
   count = 0
   array.each do |val|
-    sq_array << val.abs2
+    sq_array<<val.abs2
     count += 1
   end
 end
