@@ -5,7 +5,7 @@ def square_array(array)
   count = 0
   array.each do |val|
     sq_val= val ** 2
-    array
+    array[count] = sq_val
     count += 1
   end
 end
