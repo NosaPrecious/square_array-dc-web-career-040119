@@ -4,7 +4,8 @@ def square_array(array)
   arr_size= array.size
   count = 0
   array.each do |val|
-    
+    sq_val= val ** 2
+    array
     count += 1
   end
 end
